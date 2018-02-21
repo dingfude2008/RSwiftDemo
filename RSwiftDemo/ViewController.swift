@@ -10,9 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imv: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+//        self.imv.image = UIImage.init(named: "appLogo")
+        
+        self.imv.image = R.image.addDeviceBG2()
     }
 
     override func didReceiveMemoryWarning() {

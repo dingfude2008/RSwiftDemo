@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57248DE88D2610B9FE408049 /* Pods_RSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBC8CA99688197C4DA98C1E /* Pods_RSwiftDemo.framework */; };
 		AD6F300B203D112E0067ED23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6F300A203D112E0067ED23 /* AppDelegate.swift */; };
 		AD6F300D203D112E0067ED23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6F300C203D112E0067ED23 /* ViewController.swift */; };
 		AD6F3010203D112E0067ED23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD6F300E203D112E0067ED23 /* Main.storyboard */; };
 		AD6F3012203D112E0067ED23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6F3011203D112E0067ED23 /* Assets.xcassets */; };
 		AD6F3015203D112E0067ED23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD6F3013203D112E0067ED23 /* LaunchScreen.storyboard */; };
+		AD6F302B203D12790067ED23 /* chargeG.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD6F301E203D12790067ED23 /* chargeG.gif */; };
+		AD6F302C203D12790067ED23 /* chargeR.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD6F301F203D12790067ED23 /* chargeR.gif */; };
+		AD6F302D203D12790067ED23 /* chargeY.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD6F3020203D12790067ED23 /* chargeY.gif */; };
+		AD6F302E203D12790067ED23 /* recharge_almost.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD6F3022203D12790067ED23 /* recharge_almost.gif */; };
+		AD6F302F203D12790067ED23 /* recharge_low.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD6F3023203D12790067ED23 /* recharge_low.gif */; };
+		AD6F3030203D12790067ED23 /* recharge_mid.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD6F3024203D12790067ED23 /* recharge_mid.gif */; };
+		AD6F3031203D12790067ED23 /* batteryGrade0.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6F3026203D12790067ED23 /* batteryGrade0.png */; };
+		AD6F3032203D12790067ED23 /* batteryGrade1.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6F3027203D12790067ED23 /* batteryGrade1.png */; };
+		AD6F3033203D12790067ED23 /* batteryGrade2.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6F3028203D12790067ED23 /* batteryGrade2.png */; };
+		AD6F3034203D12790067ED23 /* batteryGrade3.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6F3029203D12790067ED23 /* batteryGrade3.png */; };
+		AD6F3035203D12790067ED23 /* batteryGrade4.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6F302A203D12790067ED23 /* batteryGrade4.png */; };
+		AD6F3038203D151F0067ED23 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6F3037203D151F0067ED23 /* R.generated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		499698D4F215C7A4D54DC088 /* Pods-RSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSwiftDemo/Pods-RSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		98A6040D1E8DD6605522DEB2 /* Pods-RSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSwiftDemo/Pods-RSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		AD6F3007203D112E0067ED23 /* RSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD6F300A203D112E0067ED23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD6F300C203D112E0067ED23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +37,19 @@
 		AD6F3011203D112E0067ED23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD6F3014203D112E0067ED23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD6F3016203D112E0067ED23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD6F301E203D12790067ED23 /* chargeG.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = chargeG.gif; sourceTree = "<group>"; };
+		AD6F301F203D12790067ED23 /* chargeR.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = chargeR.gif; sourceTree = "<group>"; };
+		AD6F3020203D12790067ED23 /* chargeY.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = chargeY.gif; sourceTree = "<group>"; };
+		AD6F3022203D12790067ED23 /* recharge_almost.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = recharge_almost.gif; sourceTree = "<group>"; };
+		AD6F3023203D12790067ED23 /* recharge_low.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = recharge_low.gif; sourceTree = "<group>"; };
+		AD6F3024203D12790067ED23 /* recharge_mid.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = recharge_mid.gif; sourceTree = "<group>"; };
+		AD6F3026203D12790067ED23 /* batteryGrade0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batteryGrade0.png; sourceTree = "<group>"; };
+		AD6F3027203D12790067ED23 /* batteryGrade1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batteryGrade1.png; sourceTree = "<group>"; };
+		AD6F3028203D12790067ED23 /* batteryGrade2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batteryGrade2.png; sourceTree = "<group>"; };
+		AD6F3029203D12790067ED23 /* batteryGrade3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batteryGrade3.png; sourceTree = "<group>"; };
+		AD6F302A203D12790067ED23 /* batteryGrade4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batteryGrade4.png; sourceTree = "<group>"; };
+		AD6F3037203D151F0067ED23 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		BDBC8CA99688197C4DA98C1E /* Pods_RSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57248DE88D2610B9FE408049 /* Pods_RSwiftDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4AFBEF3059E1DE8BC45B6F94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDBC8CA99688197C4DA98C1E /* Pods_RSwiftDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93C64C047E4F2FBEB748D8E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				499698D4F215C7A4D54DC088 /* Pods-RSwiftDemo.debug.xcconfig */,
+				98A6040D1E8DD6605522DEB2 /* Pods-RSwiftDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AD6F2FFE203D112E0067ED23 = {
 			isa = PBXGroup;
 			children = (
 				AD6F3009203D112E0067ED23 /* RSwiftDemo */,
 				AD6F3008203D112E0067ED23 /* Products */,
+				93C64C047E4F2FBEB748D8E5 /* Pods */,
+				4AFBEF3059E1DE8BC45B6F94 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +102,58 @@
 		AD6F3009203D112E0067ED23 /* RSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AD6F301C203D12790067ED23 /* battery */,
 				AD6F300A203D112E0067ED23 /* AppDelegate.swift */,
 				AD6F300C203D112E0067ED23 /* ViewController.swift */,
 				AD6F300E203D112E0067ED23 /* Main.storyboard */,
 				AD6F3011203D112E0067ED23 /* Assets.xcassets */,
 				AD6F3013203D112E0067ED23 /* LaunchScreen.storyboard */,
+				AD6F3037203D151F0067ED23 /* R.generated.swift */,
 				AD6F3016203D112E0067ED23 /* Info.plist */,
 			);
 			path = RSwiftDemo;
+			sourceTree = "<group>";
+		};
+		AD6F301C203D12790067ED23 /* battery */ = {
+			isa = PBXGroup;
+			children = (
+				AD6F301D203D12790067ED23 /* charging2 */,
+				AD6F3021203D12790067ED23 /* recharge1 */,
+				AD6F3025203D12790067ED23 /* staticPng */,
+			);
+			path = battery;
+			sourceTree = "<group>";
+		};
+		AD6F301D203D12790067ED23 /* charging2 */ = {
+			isa = PBXGroup;
+			children = (
+				AD6F301E203D12790067ED23 /* chargeG.gif */,
+				AD6F301F203D12790067ED23 /* chargeR.gif */,
+				AD6F3020203D12790067ED23 /* chargeY.gif */,
+			);
+			path = charging2;
+			sourceTree = "<group>";
+		};
+		AD6F3021203D12790067ED23 /* recharge1 */ = {
+			isa = PBXGroup;
+			children = (
+				AD6F3022203D12790067ED23 /* recharge_almost.gif */,
+				AD6F3023203D12790067ED23 /* recharge_low.gif */,
+				AD6F3024203D12790067ED23 /* recharge_mid.gif */,
+			);
+			path = recharge1;
+			sourceTree = "<group>";
+		};
+		AD6F3025203D12790067ED23 /* staticPng */ = {
+			isa = PBXGroup;
+			children = (
+				AD6F3026203D12790067ED23 /* batteryGrade0.png */,
+				AD6F3027203D12790067ED23 /* batteryGrade1.png */,
+				AD6F3028203D12790067ED23 /* batteryGrade2.png */,
+				AD6F3029203D12790067ED23 /* batteryGrade3.png */,
+				AD6F302A203D12790067ED23 /* batteryGrade4.png */,
+			);
+			path = staticPng;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +163,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD6F3019203D112E0067ED23 /* Build configuration list for PBXNativeTarget "RSwiftDemo" */;
 			buildPhases = (
+				E683AD0B5590F69A1F5D9A80 /* [CP] Check Pods Manifest.lock */,
+				AD6F3036203D12990067ED23 /* ShellScript */,
 				AD6F3003203D112E0067ED23 /* Sources */,
 				AD6F3004203D112E0067ED23 /* Frameworks */,
 				AD6F3005203D112E0067ED23 /* Resources */,
+				33F24E8DF7E1D0DF9F9A72C1 /* [CP] Embed Pods Frameworks */,
+				3766C9338688045964644A14 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,13 +219,91 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD6F3035203D12790067ED23 /* batteryGrade4.png in Resources */,
+				AD6F3034203D12790067ED23 /* batteryGrade3.png in Resources */,
+				AD6F3033203D12790067ED23 /* batteryGrade2.png in Resources */,
+				AD6F302D203D12790067ED23 /* chargeY.gif in Resources */,
+				AD6F302C203D12790067ED23 /* chargeR.gif in Resources */,
+				AD6F3031203D12790067ED23 /* batteryGrade0.png in Resources */,
+				AD6F302B203D12790067ED23 /* chargeG.gif in Resources */,
+				AD6F302E203D12790067ED23 /* recharge_almost.gif in Resources */,
 				AD6F3015203D112E0067ED23 /* LaunchScreen.storyboard in Resources */,
 				AD6F3012203D112E0067ED23 /* Assets.xcassets in Resources */,
+				AD6F3032203D12790067ED23 /* batteryGrade1.png in Resources */,
+				AD6F302F203D12790067ED23 /* recharge_low.gif in Resources */,
 				AD6F3010203D112E0067ED23 /* Main.storyboard in Resources */,
+				AD6F3030203D12790067ED23 /* recharge_mid.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33F24E8DF7E1D0DF9F9A72C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RSwiftDemo/Pods-RSwiftDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSwiftDemo/Pods-RSwiftDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3766C9338688045964644A14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSwiftDemo/Pods-RSwiftDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD6F3036203D12990067ED23 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"";
+		};
+		E683AD0B5590F69A1F5D9A80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RSwiftDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AD6F3003203D112E0067ED23 /* Sources */ = {
@@ -138,6 +312,7 @@
 			files = (
 				AD6F300D203D112E0067ED23 /* ViewController.swift in Sources */,
 				AD6F300B203D112E0067ED23 /* AppDelegate.swift in Sources */,
+				AD6F3038203D151F0067ED23 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +447,7 @@
 		};
 		AD6F301A203D112E0067ED23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 499698D4F215C7A4D54DC088 /* Pods-RSwiftDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +463,7 @@
 		};
 		AD6F301B203D112E0067ED23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98A6040D1E8DD6605522DEB2 /* Pods-RSwiftDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
